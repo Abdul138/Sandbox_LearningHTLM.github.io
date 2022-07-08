@@ -6,17 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Inernet explorer-->
     <meta name="author" content="AbdulHaady">
     <meta name="Discription" content="Leaning HTML by building a simple website">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning, flexbox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Content give valiue for name or http equiv attrbute, text entry in string or array string-->
 
 
     <title>Flex Box Page</title>
 
+    <style>
+        div {border: thin line black;}
+        *{box-sizing: border-box}
+        .header{
+            border: 1px solid red;
+            padding: 15 px;
+
+        }
+        .menu{
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+           
+        }
+        .main{
+            float: left;
+            width: 50%;
+            padding: 15px;
+            border: 1px solid red;
+
+        }
+        .aside {
+            float: left;
+            width: 25%;
+            padding: 15px;
+            border: 1px solid red;
+
+        }
+        .fotter {
+            padding: 15px;
+            border: 1px solid red;
+        }
+    </style>
+    <!--Warning about JS, Cybersecurity info-->
     <noscript>Running Javascript is not neccesary to run HTML.</noscript>
 </head>
 <body>
-    <header>This is the the child template page</header>
+    <div class="header"> <header>This is the the child template page</header></div>
     <nav>Navigation</nav>
     <aside>This is the aside space.</aside>
     <section><article>This is a section and an article.</article></section>
